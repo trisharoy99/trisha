@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {margin:0;}
+* {
+  box-sizing: border-box;
+}
+
+.icon-bar {
+ 
+ background-color:#555;
+  overflow: auto;
+  width:100;
+  
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+ 
+  
+}
+
+.icon-bar a:hover {
+  background-color:black;
+}
+
+
+.active {
+  background-color:#009900;
+}
+body {
+   background-image: url("bac5.jpg");
+  }
+  ul{
+  color:white;
+  font-size:20px;
+  }
+  .container {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:green;
+}
+
+.footer {
+   position: absulate;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#00cc7a ;
+   color: white;
+   text-align:left;
+   }
+   .hov:hover{
+   font-size:20px;
+   }
+   p.serif {
+  font-family: "Georgia", Times, serif;
+}
+   p.sans-serif{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  }
+  
+  
+  @media only screen and (max-width:620px) {
+  /* For nav,header,section,article,footer: */
+  .icon-bar{
+    width: 20%;
+    padding: 0px;
+  }
+  .slideshow-container {
+    width: 100%;
+  }
+  .container{
+  width:100%;
+  }
+  .centered {
+  width:100%;
+  }
+  .footer{
+width:110%; 
+ }
+ 
+ 
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .icon-bar a, .icon-bar, .slideshow-container,.container ,.centered,.footer:{
+    width: 100%;
+	
+	}
+
+  
+  }
+  
+  
+
+</style>
+</head>
+<body>
+
+<header>
+<center><p class="serif" style="color:#ff1a8c;font-size:45px;">JAMUNA FERTILIZER COMPANY LTD</p>
+<p class="sans-serif" style="color:#ff80b3;font-size:25px;"><i>Fertile Your Land,Fertile Your Dream</i></p></center>
+<nav>
+<div class="icon-bar">
+ <a class="active" href="#home"style="color:#bfff00" ><i class="fa fa-home">Home</i></a> 
+  <a href="#about"style="color:#bfff00"><i class="fa fa-bars">About</i></a> 
+  <a class="active" href="photo.html" style="color:#bfff00"><i class="fa fa-file">Gallary</i></a>
+  <a href="#Address"style="color:#bfff00"><i class="fa fa-globe">Address</i></a>
+  <a class="active" href="#Contact"style="color:#bfff00"><i class="fa fa-mobile">Contact</i></a>
+  
+</div>
+</nav>
+</header>
+<section>
+<article>
+<h1 style="font-size:36px;color:#dd99ff;text-align:center;">Jamuna Fertilizer Company LTD</h1><center>
+<h1 style="color:#00b3b3;font-size:35px;">Introduction</h1></center>
+
+
+
+
+<p style="color:white;font-size:20px";>The Jamuna Fertilizer Company Limited  (JFCL) is the largest enterprise  of Bangladesh Chemical  Industries Corporation (BCIC).Jamuna Fertilizer Company Limited(JFCL) has been established in 1991 and produces huge amount of <span style="color:#ffff00";>urea</span>.The plant is located in an area of 135 acres of land.This huge amount of area consists of plant area as well as housing coloy.</p> 
+
+</article>
+
+
+<div class="slideshow-container">
+<center>
+
+<div class="mySlides fade">
+  <div class="numbertext">1/4</div>
+  <img src="jfcl3.jpg" alt="abc" style="width:700px;height:350px;">
+  <div class="text" style="color:#660033;font-size:23px;">JFCL main plant</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2/4</div>
+  <img src="col2.jpg" style="width:700px;height:350px;">
+  <div class="text"style=" color:#660033;font-size:23px;">JFCL housing colony</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3/4</div>
+  <img src="mos1.jpg" style="width:700px;height:350px;">
+  <div class="text"style="color:#660033;font-size:23px";>JFCL central mosque </div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4/4</div>
+  <img src="scl2.jpg" style="width:700px;height:350px;">
+  <div class="text"style="color:#660033;font-size:23px;">JFCL school and college</div>
+</div>
+</center>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<br><br>
+<center><h1 style="color:#00b3b3;font-size:35px;">Production capacity of JFCL</h1></center>
+
+<p style="color:white;font-size:20px";>The Jamuna fertilizer factory incurs a production loss of about 500 tones of <span style="color:#ffff00";>urea</span> a day due to less supply of gas, sources in the factory said.
+As a result,<span style="color:#ffff00";> urea </span>supply to 20 districts including 16 northern districts and four districts in greater Mymensingh under the factory's command area may face short supply during the peak Irri-Boro season.
+Jamuna fertilizer, the largest <span style="color:#ffff00";>urea</span> producing factory in the country, produced a record 5,20,000 MT <span style="color:#ffff00";>urea</span> in the last financial year (2007-2008) against its normal capacity of 5,00,000 MT.It is situated on the bank  of the river  Jamuna in the district of Jamalpur. Its <span style="color:#ffff00";> urea</span> production capacity is 1700  metric ton per day (MTPD) designed  by SNAMPROGETTI and Ammonia production capacity  is 1078 MTPD designed by HALDORTOPSOE of Denmark. The total plant infrastructure was constructed by  Mitsubishi Heavy Industries Limited (MHI) of  Japan. Bangladesh is an agrarian economy. In order to meet  the increasing demand of food grain in  the country. Fertilizer  is one of the main inputs to agricultural  sector. It is an essential prerequisite to increase food production. Bangladesh Chemical Industries Corporation (BCIC) is  one of the biggest industrial organizations in the  public sector under Ministry  of Industries, Government of the Peoples' Republic of Bangladesh. BCIC is  concerned with the setting of objectives, approval of  budget, monitoring of actual performance and rendering expertise  assistance for JFCL.</p>
+<br><br>
+<center><h1 style="color:#00b3b3;font-size:35px;" id="about">Management Policy of JFCL</h1></center>
+
+<p style="color:white;font-size:20px"; >The management of JFCL is under planning for implementation and to install computer  in all business units. JFCL is planning to setup server in computer system department with  local area network (LAN) facilities. The fertilizer company face the national and global challenges in business to survive. They have a plan for MIS  system in cooperation of with BCIC. Therefore JFCL one million taka budget provision and introduced  basic computer training program in-houseMd. Mofizur Rahman has Joined Jamuna Fertilizer Company Ltd.Md. Mofizur Rahman has Joined Jamuna Fertilizer Company Ltd (JFCL) an Enterprise of Bangladesh Chemical Industries Corporation (BCIC) as Managing Director on February 07, 2019.</p>
+
+<center><h1 style="color:#00b3b3;font-size:35px;" id="about">Business Unit Of JFCL</h1></center>
+
+<p style="color:white;font-size:20px";> In this study, business unit is considered where information is generated. The Chief Executive Officer of JFCL is Managing Director (MD). Under MD  there are nine General Managers (GM). There  are about 50 (fifty) sections/subsections under nine GMs. The names of division and sections i.e. business units are following: 
+<ol type="1" style="color:white;font-size:20px";><li> Office of the Managing Director.</li><li>  Office of the General Manager Administration:
+Personnel Administration, Labour Section,  Labour Welfare, School and College, Estate  section, Transport section, CBA, Requirement Section and Common Service Section.</li> <li> Office of the Chief Medical Officer: Medical Centre.</li><li>  Office of the General  Manager (Accounts and Finance): 
+   General Accounts, Cost &  Budget, Pay & Bill, Insurance, Tax and Audit, Cash  & Bank, Store Accounts and Computer Section.<li>  Office of the General Manager Commercial: 
+   Local Purchase, Foreign Purchase and Sales.</li> <li> Office of the General Manager MPIC: 
+   General/Chemical Stores, Spares Parts Store  and Material Planning and Inventory Control (MPIC).</li><li>  Office of the General Manager Technical: 
+   Quality Cntrol, Fire & Safety, Process Engineering and Inspection, Research and Development,  Technical documentation:-Technical Services & MIS, Technical Library, Photocopy and Cyclostyle,  Book Binding, Training, Computer Lab. </li><li> Office of the Chief Engineer MTS:
+   Machinery Maintenance, Plant Maintenance, Electrical Maintenance, Instrument Maintenance, Central Workshop, Solid Handling System Maintenance. </li><li> Office of the Chief Engineer Construction: 
+     Civil (Housing) and Civil (Factory). </li><li> Office of the General Manager Operation:   Urea Plant, Ammonia Plant,  Utility Plant and bagging plant.</ol> </p>
+
+<center><h1 style="color:#00b3b3;font-size:35px;">Urea Production And Manufacturing Process</h1></center>
+
+<P style="color:white;font-size:20px";>Urea is a very important industrial production which is much used in agricultural field as a fertilizer because urea contains high percentage of nitrogen.<span style="color:#ffff00";> Urea</span> dissolves very well in water. <span style="color:#ffff00";>Urea</span> is called also as carbamide, which is an organic compound with chemical formula of CO(NH2)2.<span style="color:#ffff00";> Urea</span> is a white solid.</P>
+<p>
+<img src="urea1.jpg" alt="urea" style="width:500px;height:400px;margin-left:15px;float:right;">
+
+
+<h1 style="color:#00e600";>Urea molecular formula - CO(NH2)2<h1>
+<p style="color:white;font-size:20px";>Urea is an amide compound and has two -NH<sub>2</sub> groups connecting to the carbonyl group.</p>
+
+<h1 style="color:#b30000;font-size:28px";>Manufacturing process of urea</h1>
+<p style="color:white;font-size:20px";>Liquid ammonia is allowed to react with liquid carbon dioxide in a reactor at high temperature and pressure. The conditions employed are 130-1500C and a pressure of 35 atm. urea is formed in two-step reactions.</p>
+
+<h1 style="color:#00e600";>1.Ammonia and carbon dioxide reaction</h1>
+<p style="color:white;font-size:20px";>Ammonia and carbon dioxide react together and give ammonium carbamate (NH<sub>2</sub>COONH<sub>4</sub>).<br>
+NH<sub>3</sub>+CO<sub>2</sub>=NH<sub>2</sub>COONH<sub>4</sub><br>
+Fast, Exothermic , Go to completeness at industrial situations.</p>
+
+<h1 style="color:#00e600";>2.Ammonium carbamate to urea reaction</h1>
+<p style="color:white;font-size:20px";>NH<sub>2</sub>COONH<sub>4</sub>=CO(NH<sub>2</sub>)<sub>2</sub>+H<sub>2</sub>O<br></p>
+
+<p style="color:white;font-size:20px";>Manufactured urea contains unreacted ammonia and carbon dioxide and ammonium carbamate. Ammonium carbamate is removed by reducing the pressure (Le Chatelier's Principle). When heating, ammonia and carbon dioxide is separated. The advantage of this process is ammonia and carbon dioxide can be recycled back to the process.
+Urea is obtained as a solution, but that solution is concentrated to give 99.6% molten urea, and granulated for use for fertilizer.</p>
+</p>
+<h1 style="color:#ff3399;font-size:28px";>Some Achievements Of JFCL</h1>
+<ul type="square";>
+<li>Highest production of urea per day &nbsp :1787.00 MT</li>
+<li>Highest production of amonia per day &nbsp :1093.00 MT</li>
+<li>Highest bagging per day &nbsp:3080.75 MT</li>
+<li>Highest days of factory running to produce amonia &nbsp :315days</li>
+<li>Highest days of factory running to produce urea &nbsp :118days </li>
+</ul>
+
+
+</section>
+
+
+
+<center><h3 style="color:#d9ff66";>See Whrere JFCL Is</h3></center>
+<div class="container" id="Address">
+<img src="map.jpg" alt="map" style="width:600px;height:400px;">
+
+<div class="centered"><a href="https://www.google.com/maps/place/Jamuna+Fertilizer+Company+Limited/@24.6806225,89.8229678,16.54z/data=!4m5!3m4!1s0x39fd9045a5833ed3:0xb2f5247a173101f4!8m2!3d24.6807945!4d89.825333"><button class="hov" style="color:#ff0080">Tap to visit full map</button></a></div>
+</div>
+<div class="footer">
+  
+<address style="margin:15px;font-size:20px" id="Contact">
+Tarakandi,Sarishabari,Jamalpur<br>
+Dhaka,Bangladesh.<br>
+<i class="fa fa-phone">+8801712367202</i><br>
+<a href="https://www.facebook.com/myJFCL/"><i class="fa fa-facebook" style="color:white">Facebook.com</i></a><br>
+<a href="http://jfcl.gov.bd/"><i class="fa fa-globe" style="color:white";>jfcl.gov.bd</i></a>
+</address> 
+
+</div>
+
+<div><center>
+<p style="color:white">This Site Is Developed By:<i style="color:#00ff00";>TRISHA RANI ROY</i></p>
+<a href="https://instagram.com/roytrisa99?igshid=1xwmuom0is09r";"><i class="fa fa-instagram" style="color:#cc33ff;font-size:20px";>Instagram</i></a><br>
+<i class="fa fa-envelope" style="color:#ff1a8c;font-size:20px";>roytrisa99@gmail.com</i></a>
+</center></div>
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+</body>
+</html> 
